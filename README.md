@@ -5,9 +5,9 @@
 Prerequisites:
 
 1. Docker installed and running on the system.
-2. Quest Node.js project with your web application code.
+2. Quest Node.js project with web application code.
 
-Steps
+Steps:
 
 1. create directry quest-node-app and initialize git repo
 
@@ -31,7 +31,7 @@ Steps
 
 ### Push docker image to Google Artifcat Registry(GAR)
 
-1. create GAR repo
+1. Create GAR repo
 
         gcloud artifacts repositories create rearc-quest --repository-format=docker --location us-central1
 
@@ -66,8 +66,4 @@ After successful deployment of all the components, we can access the quest node.
 1. Naviagate to GCP console https://console.cloud.google.com/kubernetes/list/overview?authuser=0&project=quest-demo-438215
 2. Choose Gateways, Services & Ingress in the left pane
 3. Choose Ingress and click the link under Frontend
-4. The quest nodejs app will open in browser.
-
-
-
-
+4. The quest node.js app will open in browser.
